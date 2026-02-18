@@ -20,6 +20,21 @@ Unlike arrays, linked lists use dynamic memory allocation.
 - Traversing and displaying the list
 
 ---
+## Files Included
+
+1. basic_singly_linked_list.cpp
+   - Insert at beginning
+   - Insert at end
+   - Delete by value
+   - Display
+
+2. advanced_singly_linked_list.cpp
+   - Search
+   - Length
+   - Insert at position
+   - Delete at position
+   - Reverse
+
 
 ## 🧠 Concepts Practiced
 
