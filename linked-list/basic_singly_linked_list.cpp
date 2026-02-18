@@ -10,9 +10,7 @@ Node* head = NULL;
 
 // Insert at End
 void insertAtEnd(int value) {
-    Node* newNode = new Node();
-    newNode->data = value;
-    newNode->next = NULL;
+    Node* newNode = new Node{value, NULL};
 
     if (head == NULL) {
         head = newNode;
@@ -20,22 +18,20 @@ void insertAtEnd(int value) {
     }
 
     Node* temp = head;
-    while (temp->next != NULL) {
+    while (temp->next != NULL)
         temp = temp->next;
-    }
+
     temp->next = newNode;
 }
 
 // Insert at Beginning
 void insertAtBeginning(int value) {
-    Node* newNode = new Node();
-    newNode->data = value;
-    newNode->next = head;
+    Node* newNode = new Node{value, head};
     head = newNode;
 }
 
 // Delete by Value
-void deleteNode(int value) {
+void deleteByValue(int value) {
     if (head == NULL) return;
 
     if (head->data == value) {
@@ -46,9 +42,8 @@ void deleteNode(int value) {
     }
 
     Node* temp = head;
-    while (temp->next != NULL && temp->next->data != value) {
+    while (temp->next != NULL && temp->next->data != value)
         temp = temp->next;
-    }
 
     if (temp->next == NULL) return;
 
@@ -71,11 +66,8 @@ int main() {
 
     insertAtEnd(10);
     insertAtEnd(20);
-    insertAtEnd(30);
-
     insertAtBeginning(5);
-
-    deleteNode(20);
+    deleteByValue(20);
 
     display();
 
