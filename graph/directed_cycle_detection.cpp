@@ -15,7 +15,6 @@ bool dfs(int node, vector<int> adj[], vector<int> &visited, vector<int> &pathVis
             return true; // cycle found
         }
     }
-
     pathVis[node] = 0;
     return false;
 }
@@ -30,7 +29,6 @@ int main() {
     adj[3] = {1}; // cycle
 
     vector<int> visited(n, 0), pathVis(n, 0);
-
     for(int i = 0; i < n; i++) {
         if(!visited[i]) {
             if(dfs(i, adj, visited, pathVis)) {
