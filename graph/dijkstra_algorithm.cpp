@@ -34,7 +34,6 @@ void dijkstra(int n, vector<vector<pii>> &adj, int src) {
     for(int i = 0; i < n; i++)
         cout << "Node " << i << " -> " << dist[i] << endl;
 }
-
 int main() {
     int n = 5;
     vector<vector<pii>> adj(n);
