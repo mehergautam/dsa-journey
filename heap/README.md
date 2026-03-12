@@ -1,7 +1,6 @@
 # Heap / Priority Queue
 
 Heap is a complete binary tree that satisfies the heap property.
-
 Types of Heap:
 - Min Heap
 - Max Heap
