@@ -11,7 +11,6 @@ Heaps are commonly used for problems involving:
 - Priority-based processing
 
 ## Implemented Problems
-
 1. Kth Largest Element using Min Heap
 2. Merge K Sorted Arrays using Priority Queue
 3. top_k_frequent_elements.cpp
