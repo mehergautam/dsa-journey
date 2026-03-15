@@ -19,6 +19,7 @@ and technical interviews.
 - Trees (Basics)
 - Searching & Sorting
 - Heap
+- dynamic programming
 
 ## 🛠 Tech Stack
 - Language: C++
