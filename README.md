@@ -18,6 +18,7 @@ and technical interviews.
 - Stack & Queue
 - Trees (Basics)
 - Searching & Sorting
+- Heap
 
 ## 🛠 Tech Stack
 - Language: C++
