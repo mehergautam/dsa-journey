@@ -20,7 +20,3 @@ Counts total number of nodes using recursion.
 ✔ Height
 ✔ Node Count
 ✔ Diameter
-
-Next:
-- Balanced Tree
-- LCA
