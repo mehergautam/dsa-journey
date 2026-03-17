@@ -32,7 +32,6 @@ void levelOrder(Node* root) {
             q.push(temp->right);
     }
 }
-
 int main() {
     Node* root = new Node(1);
     root->left = new Node(2);
