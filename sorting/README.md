@@ -1,7 +1,7 @@
-# Sorting Algorithm
+# Sorting Algorithms
 
 Sorting is the process of arranging elements in a specific order 
-(ascending or descending).
+(ascending or descending)
 
 ## Why Sorting is Important?
 - Makes searching efficient
