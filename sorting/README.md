@@ -1,4 +1,4 @@
-# Sorting Algorithms
+# Sorting Algorithm
 
 Sorting is the process of arranging elements in a specific order 
 (ascending or descending).
