@@ -61,26 +61,6 @@ DSA-Journey/
 └── README.md
 ```
 
-Each folder contains:
-- **Problem solutions** in C++
-- **Clean code** with comments explaining the logic
-- **Day-wise commits** so you can track the journey
-
----
-
-## 💡 How I Approach Each Problem
-
-```
-1. Understand the problem clearly
-2. Think brute force first
-3. Optimize — time & space complexity
-4. Code it in C++
-5. Test edge cases
-6. Commit with a meaningful message
-```
-
----
-
 ## 📈 Progress Tracker
 
 - ✅ **128+ commits** and counting
@@ -98,18 +78,6 @@ Editor    →  VS Code
 Platform  →  LeetCode / GFG / Custom Problems
 Tracker   →  Git commits (daily)
 ```
-
----
-
-## 🚀 Why I Started This
-
-Campus placements were coming.
-
-Everyone said *"do DSA"* — but nobody said how to stay consistent.
-
-So I made a simple rule: **commit every day, no matter what.**
-
-This repo is proof of that commitment.
 
 ---
 
