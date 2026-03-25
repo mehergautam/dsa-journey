@@ -21,9 +21,7 @@ vector<int> mergeKArrays(vector<vector<int>>& arr){
 
     return result;
 }
-
 int main(){
-
     vector<vector<int>> arr = {{1,4,7},{2,5,8},{3,6,9}};
 
     vector<int> res = mergeKArrays(arr);
