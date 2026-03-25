@@ -28,7 +28,6 @@ int main() {
             break;
         }
     }
-
     if(found != -1)
         cout << "Element found at index " << found;
     else
