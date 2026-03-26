@@ -9,9 +9,7 @@ int main() {
     int n, key;
     cout << "Enter number of elements: ";
     cin >> n;
-
     int arr[n];
-
     cout << "Enter elements: ";
     for(int i = 0; i < n; i++) {
         cin >> arr[i];
