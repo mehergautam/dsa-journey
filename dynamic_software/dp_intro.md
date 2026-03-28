@@ -1,6 +1,6 @@
 # Dynamic Programming (DP)
 
-Dynamic Programming is an optimization technique used to solve problems by breaking them into overlapping subproblems.
+Dynamic Programming is an optimization technique used to solve problems by breaking them into overlapping subproblems...
 
 ## Two Approaches
 
