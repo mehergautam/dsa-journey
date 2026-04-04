@@ -6,7 +6,7 @@ bool dfs(int node, vector<int> adj[], vector<int> &visited, vector<int> &pathVis
     visited[node] = 1;
     pathVis[node] = 1;
 
-    for(int v : adj[node]) {
+    for(int v : adj[node]) }
         if(!visited[v]) {
             if(dfs(v, adj, visited, pathVis))
                 return true;
