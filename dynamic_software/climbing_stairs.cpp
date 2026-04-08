@@ -1,8 +1,6 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-
-// Memoization
 int climbMemo(int n, vector<int> &dp) {
     if(n <= 2) return n;
     if(dp[n] != -1) return dp[n];
