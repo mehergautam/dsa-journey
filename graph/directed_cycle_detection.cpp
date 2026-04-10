@@ -12,7 +12,7 @@ bool dfs(int node, vector<int> adj[], vector<int> &visited, vector<int> &pathVis
                 return true;
         }
         else if(pathVis[v]) {
-            return true; // cycle found
+            return true;
         }
     }
     pathVis[node] = 0;
