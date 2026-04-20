@@ -9,8 +9,8 @@ Dynamic Programming is an optimization technique used to solve problems by break
 
 ## Key Idea
 
-- Overlapping Subproblems
-- Optimal Substructure
+- Overlapping Subproblems.
+- Optimal Substructure.
 
 ## Common Patterns
 
